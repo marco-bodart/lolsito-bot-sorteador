@@ -10,7 +10,7 @@ module.exports = (client, lobbies) => {
 
     // if (message.channel.id !== CANAL_PERMITIDO) {
     //   if (esComando) {
-    //     return message.reply('Aquí no puedes usar este bot alv perro ábrete a la verga');
+    //     return message.reply('Aquí no puedes usar este bot');
     //   }
     //   return;
     // }
