@@ -18,7 +18,7 @@ El bot gestiona la creación de lobbies, la entrada de jugadores mediante botone
 
 ## Tecnologías utilizadas
 
-<p align="center">
+<p>
   <img src="https://skillicons.dev/icons?i=nodejs,discordjs" />
 </p>
 
