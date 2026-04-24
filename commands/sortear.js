@@ -6,7 +6,7 @@ module.exports = async (message, lobbies) => {
   const modo = args[1];
 
   if (!modo) {
-    return message.reply('Usa: !sortear aram o grieta');
+    return message.reply('Usa: /sortear aram o grieta');
   }
 
   const msg = await message.reply({
