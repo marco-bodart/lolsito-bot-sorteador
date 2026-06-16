@@ -43,6 +43,7 @@ CLIENT_ID=tu_client_id
 5- Invita tu bot a un servidor de Discord desde el Discord Developer Portal (OAuth2).
 
 6. Abre una terminal ubicada en la ruta raiz del proyecto y ejecuta:
+   
 ```bash
 node index.js
 ```
