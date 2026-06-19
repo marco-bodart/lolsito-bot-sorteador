@@ -1,22 +1,22 @@
-# Bot de Discord - Sorteo de equipos para League of Legends
+# Discord Bot - League of Legends Team Randomizer
 
-Bot de Discord hecho con Node.js y discord.js que permite crear salas para sortear equipos para partidas personalizadas de League of Legends.
+Discord bot built with Node.js and discord.js that allows users to create lobbies and randomly assign teams for custom League of Legends matches
 
-El bot gestiona la creación de lobbies, la entrada de jugadores mediante botones interactivos y el sorteo final de equipos.
+The bot handles lobby creation, player joining through interactive buttons, and final team randomization.
 
 ---
 
-## Características
+## Features
 
-- Comando principal (y único) `/sortear`
-- Selección de modo de juego **ARAM** o **Grieta del Invocador**
+- Single slash command `/sortear`
+- Game mode selection **ARAM** o **Summoner's Rift**
 - Creación de salas dentro de canales de texto de Discord
-- Botones: Unirse / Salir / Cancelar
-- Sorteo automático a llenar la sala
+- Interactive buttons: Unirse / Salir / Cancelar
+- Automatic team randomization when the lobby is full
 
 ---
 
-## Tecnologías utilizadas
+## Technologies Used
 
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,discordjs" />
@@ -24,25 +24,25 @@ El bot gestiona la creación de lobbies, la entrada de jugadores mediante botone
 
 ---
 
-## Instalación
+## Installation
 
-1- Clona el repositorio:
+1- Clone the repository:
 
 ```bash
 git clone https://github.com/marco-bodart/lolsito-bot-sorteador.git
 ```
-2- Dirígete al directorio raiz y ejecuta `npm install` para instalar las dependencias necesarias.
+2- Navigate to the project root and run `npm install` to install dependencies.
 
-3- Renombra los archivos `.env.example` y `config.example.js` quitándoles ".example".
+3- Rename `.env.example` and `config.example.js` by removing the `.example` extension.
 
-4- Dentro de `.env` coloca tu TOKEN y tu CLIENT ID (desde el Discord Developer Portal con tu bot previamente creado).
+4- Inside `.env` add your bot token and client ID (from the Discord Developer Portal).
 ```env
-TOKEN=tu_token_del_bot
-CLIENT_ID=tu_client_id
+TOKEN=your_bot_token
+CLIENT_ID=your_client_id
 ```
-5- Invita tu bot a un servidor de Discord desde el Discord Developer Portal (OAuth2), ubícate en la ruta raíz del proyecto y ejecuta:
+5- Invite your bot to a Discord server via the Discord Developer Portal (OAuth2). Then, from the project root, run:
    
 ```bash
 node index.js
 ```
-El bot comenzará a funcionar si todo está correcto.
+If everything is set up correctly, the bot will start running.
