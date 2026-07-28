@@ -9,8 +9,8 @@ The bot handles lobby creation, player joining through interactive buttons, and 
 ## Features
 
 - Single slash command `/sortear`
-- Game mode selection **ARAM** o **Summoner's Rift**
-- Creación de salas dentro de canales de texto de Discord
+- Game mode selection **ARAM** o **Grieta** (Summoner's Rift)
+- Create lobbies within Discord text channels
 - Interactive buttons: Unirse / Salir / Cancelar
 - Automatic team randomization when the lobby is full
 
